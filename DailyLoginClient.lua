@@ -3,6 +3,8 @@ local Daily = game.ReplicatedStorage:WaitForChild("Events"):WaitForChild("Daily"
 local Event = game.ReplicatedStorage:WaitForChild("Events"):WaitForChild("DailyEvent")
 	
 local player = game.Players.LocalPlayer
+
+-- Create GUIs so that player knows what's going on! The default ones will be attached as an rbxm file to the git.
 local daily_claim = game.ReplicatedStorage:WaitForChild("GUIs"):WaitForChild("Daily"):WaitForChild("DailyMessage")
 local gui_claimed = game.ReplicatedStorage:WaitForChild("GUIs"):WaitForChild("Daily"):WaitForChild("ClaimedMessage")
 local early_claim = game.ReplicatedStorage:WaitForChild("GUIs"):WaitForChild("Daily"):WaitForChild("EarlyMessage")
